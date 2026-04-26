@@ -1,0 +1,30 @@
+===========================================================
+SISTEMA DE GESTÃO DE JOGADORES - REV-0 (FARM STACK)
+===========================================================
+
+Este projeto é uma aplicação FullStack autónoma que utiliza a 
+arquitetura FARM (FastAPI, React, MongoDB).
+
+--- COMO EXECUTAR NO WINDOWS ---
+
+1. REQUISITOS:
+   - Certifique-se de que tem o Python e o Node.js instalados.
+   - O banco de dados (MongoDB) já está incluído na pasta /data.
+
+2. EXECUÇÃO:
+   - Basta dar um duplo clique no ficheiro: start_windows.bat
+   - Este comando irá:
+     a) Iniciar o banco de dados local (sem necessidade de instalação).
+     b) Ativar o servidor Backend (FastAPI).
+     c) Abrir a interface no seu navegador (React).
+
+3. ACESSO:
+   - Caso o navegador não abra sozinho, aceda a: http://localhost:3000
+
+--- NOTA TÉCNICA ---
+Esta versão (Rev-0) foi configurada para portabilidade total via 
+SharePoint/Drive, mantendo a persistência de dados dentro da pasta 
+do próprio projeto.
+
+Desenvolvido por: Milton Carlos Ribeiro
+===========================================================
